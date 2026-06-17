@@ -1,51 +1,73 @@
-# OrderNBrew
+<div align="center">
 
-**OrderNBrew** adalah aplikasi web pemesanan dan pembayaran cafe berbasis Laravel dan MySQL. Aplikasi ini dibuat untuk memudahkan pelanggan dalam melihat menu, melakukan pemesanan, memilih nomor meja, melakukan pembayaran, serta melihat status pesanan secara online.
+<img src="docs/logo.png" alt="OrderNBrew Logo" width="180"/>
 
-Di sisi cafe, sistem ini membantu admin, kasir, dan kitchen/barista dalam mengelola menu, memverifikasi pembayaran, memproses pesanan, serta melihat data penjualan.
+# ☕ OrderNBrew
+
+### *Smart Cafe Ordering & Payment System*
+
+<p>
+  <img src="https://img.shields.io/badge/Laravel-Framework-red?style=for-the-badge&logo=laravel" alt="Laravel">
+  <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" alt="MySQL">
+  <img src="https://img.shields.io/badge/Bootstrap-UI-purple?style=for-the-badge&logo=bootstrap" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/Status-Development-yellow?style=for-the-badge" alt="Status">
+</p>
+
+**OrderNBrew** adalah aplikasi web pemesanan dan pembayaran cafe berbasis **Laravel** dan **MySQL**  
+yang dirancang untuk membantu proses **order, pembayaran, dan manajemen pesanan cafe** secara digital.
+
+</div>
 
 ---
 
-## Deskripsi Project
+## 📌 Overview
 
-OrderNBrew dirancang sebagai sistem digital untuk cafe agar proses pemesanan menjadi lebih cepat, rapi, dan terintegrasi. Pelanggan dapat memilih menu langsung melalui website, memasukkan pesanan ke keranjang, melakukan checkout, lalu melakukan pembayaran secara online atau melalui simulasi pembayaran.
+OrderNBrew dibuat untuk mempermudah pelanggan cafe dalam:
 
-Sistem ini juga menyediakan dashboard untuk pihak cafe, seperti admin untuk mengelola menu, kasir untuk mengecek pembayaran, dan kitchen/barista untuk memproses pesanan.
-
----
-
-## Fitur Utama
-
-### Customer
-- Melihat daftar menu cafe
-- Melihat kategori menu
+- Melihat daftar menu
 - Menambahkan menu ke keranjang
-- Mengatur jumlah pesanan
-- Checkout pesanan
-- Mengisi nama pelanggan dan nomor meja
+- Melakukan checkout
 - Memilih metode pembayaran
+- Mengirim bukti pembayaran
+- Melihat status pesanan
+
+Di sisi pengelola cafe, sistem ini juga membantu:
+
+- **Admin** untuk mengelola kategori dan menu
+- **Kasir** untuk memverifikasi pembayaran
+- **Kitchen / Barista** untuk memproses pesanan
+- **Owner / Admin** untuk melihat data operasional
+
+---
+
+## ✨ Features
+
+### 👤 Customer
+- View menu cafe
+- Filter menu berdasarkan kategori
+- Add to cart
+- Checkout pesanan
+- Input nama pelanggan & nomor meja
+- Pilih metode pembayaran
 - Upload bukti pembayaran
-- Melihat status pesanan melalui kode order
+- Tracking status pesanan
 
-### Admin
-- Login ke dashboard admin
-- Melihat ringkasan data
-- Mengelola kategori menu
-- Mengelola data menu
-- Mengatur harga, deskripsi, foto, dan status menu
-- Melihat data pesanan
+### 🛠 Admin
+- Login dashboard admin
+- Kelola kategori menu
+- Kelola data menu
+- Lihat ringkasan data
+- Lihat pesanan
 
-### Kasir
-- Melihat daftar pesanan masuk
-- Mengecek status pembayaran
-- Memverifikasi pembayaran
-- Menolak pembayaran jika tidak valid
-- Mengubah status pembayaran menjadi paid/rejected
+### 💳 Cashier
+- Lihat daftar pesanan masuk
+- Verifikasi pembayaran
+- Approve / reject pembayaran
+- Update status pembayaran
 
-### Kitchen / Barista
+### 👨‍🍳 Kitchen / Barista
 - Melihat pesanan yang sudah dibayar
-- Memproses pesanan
-- Mengubah status pesanan:
+- Update status pesanan:
   - Waiting
   - Processing
   - Ready
@@ -53,23 +75,23 @@ Sistem ini juga menyediakan dashboard untuk pihak cafe, seperti admin untuk meng
 
 ---
 
-## Teknologi yang Digunakan
+## 🧰 Tech Stack
 
-- Laravel
-- PHP
-- MySQL
-- Blade Template
-- Bootstrap
-- HTML
-- CSS
-- JavaScript
-- XAMPP / phpMyAdmin
+| Technology | Description |
+|---|---|
+| **Laravel** | Backend framework |
+| **PHP** | Server-side programming language |
+| **MySQL** | Database |
+| **Blade** | Templating engine Laravel |
+| **Bootstrap** | Frontend UI framework |
+| **HTML / CSS / JS** | Frontend basic structure |
+| **XAMPP** | Local server environment |
 
 ---
 
-## Struktur Database
+## 🗂 Database Structure
 
-Database yang digunakan bernama:
+Database yang digunakan:
 
 ```sql
 ordernbrew
