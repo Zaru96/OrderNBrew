@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="docs/logo.png" alt="OrderNBrew Logo" width="180"/>
-
 # ☕ OrderNBrew
 
 ### *Smart Cafe Ordering & Payment System*
